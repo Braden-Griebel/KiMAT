@@ -41,6 +41,7 @@
 
 # Standard Library imports
 import pathlib
+import os
 
 # External Imports
 import cobra
@@ -52,12 +53,16 @@ import pandas as pd
 
 
 # ## Setup
+
+# Setup the root directory
+home = os.getenv("HOME")
+kimat_root = pathlib.Path(home) / "projects" / "KiMAT"
 # Set the default solver to Gurobi to significantly speed up the analysis
 
 # In[2]:
 
 
-cobra.Configuration.solver = "gurobi"
+cobra.Configuration.solver = "cplex"
 
 
 # ## Data Preprocessing
@@ -69,7 +74,7 @@ cobra.Configuration.solver = "gurobi"
 # In[3]:
 
 
-gene_expression = pd.read_csv(pathlib.Path('..') / 'data' / 'gene-expression' / 'kinase_RNA_seq.csv', index_col=0).drop( "GrowthPhase", axis=1)
+gene_expression = pd.read_csv(kimat_root / 'data' / 'gene-expression' / 'kinase_RNA_seq.csv', index_col=0).drop( "GrowthPhase", axis=1)
 # Convert the RPKM measurements into TPM
 gene_expression = metworkpy.utils.rpkm_to_tpm(gene_expression)
 
@@ -121,12 +126,12 @@ for condition in condition_dict:
 # Convert qualitative weights into trinarized reactions
 
 # Load the iEK1011 model
-iek1011 = metworkpy.read_model(pathlib.Path('..') / 'data' / 'Models' / 'iEK1011_m7H10_media.json')
+iek1011 = metworkpy.read_model(kimat_root / 'data' / 'Models' / 'iEK1011_m7H10_media.json')
 
 # Convert the gene expression data into trinarized reaction data
 # WARNING: This step may take a while, it is not implemented very efficiently currently
 for condition in condition_dict:
-    p = pathlib.Path('..') / 'cache' / f'{condition}_rxn_weights.json'
+    p = kimat_root / 'cache' / f'{condition}_rxn_weights.json'
     if p.exists():
         condition_dict[condition] = pd.read_json(p, typ = "series")
     else:
@@ -158,7 +163,7 @@ model_dict = dict()
 print(METHOD)
 for condition in condition_dict:
     print(condition)
-    p = pathlib.Path('..') / 'results' /  METHOD / f'iek1011_{condition}_model.json'
+    p = kimat_root / 'results' /  METHOD / f'iek1011_{condition}_model.json'
     if p.exists():
         model_dict[condition] = metworkpy.read_model(str(p))
     else:
@@ -177,7 +182,7 @@ model_dict = dict()
 print(METHOD)
 for condition in condition_dict:
     print(condition)
-    p = pathlib.Path('..') / 'results' /  METHOD / f'iek1011_{condition}_model.json'
+    p = kimat_root / 'results' /  METHOD / f'iek1011_{condition}_model.json'
     if p.exists():
         model_dict[condition] = metworkpy.read_model(str(p))
     else:
@@ -196,7 +201,7 @@ model_dict = dict()
 print(METHOD)
 for condition in condition_dict:
     print(condition)
-    p = pathlib.Path('..') / 'results' /  METHOD / f'iek1011_{condition}_model.json'
+    p = kimat_root / 'results' /  METHOD / f'iek1011_{condition}_model.json'
     if p.exists():
         model_dict[condition] = metworkpy.read_model(str(p))
     else:
@@ -215,7 +220,7 @@ model_dict = dict()
 print(METHOD)
 for condition in condition_dict:
     print(condition)
-    p = pathlib.Path('..') / 'results' /  METHOD / f'iek1011_{condition}_model.json'
+    p = kimat_root / 'results' /  METHOD / f'iek1011_{condition}_model.json'
     if p.exists():
         model_dict[condition] = metworkpy.read_model(str(p))
     else:
@@ -229,7 +234,7 @@ for condition in condition_dict:
 # In[ ]:
 
 
-base_path = pathlib.Path("..") / "results"
+base_path = kimat_root / "results"
 biomass_growth_df.sort_index().to_csv(base_path / "biomass_raw.csv")
 
 biomass_prop = biomass_growth_df.drop("WT", axis=0) / biomass_growth_df.loc["WT"]
