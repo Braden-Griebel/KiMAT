@@ -27,10 +27,10 @@ import pandas as pd
 
 cobra.Configuration.solver = "cplex"
 ## Local Developement
-BASE_PATH = pathlib.Path("..")
+# BASE_PATH = pathlib.Path("..")
 ## HPC
-# HOME = os.getenv("HOME")
-# BASE_PATH = pathlib.Path(HOME) / "projects" / "KiMAT"
+HOME = os.getenv("HOME")
+BASE_PATH = pathlib.Path(HOME) / "projects" / "KiMAT"
 
 
 # ## Data Preparation
