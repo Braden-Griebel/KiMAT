@@ -3,7 +3,7 @@
 
 # ## Imports
 
-# In[5]:
+# In[1]:
 
 
 # Standard Library imports
@@ -22,20 +22,20 @@ import pandas as pd
 
 # ## Setup
 
-# In[6]:
+# In[2]:
 
 
 cobra.Configuration.solver = "cplex"
 ## Local Developement
-# BASE_PATH = pathlib.Path("..")
+BASE_PATH = pathlib.Path("..")
 ## HPC
-HOME = os.getenv("HOME")
-BASE_PATH = pathlib.Path(HOME) / "projects" / "KiMAT"
+# HOME = os.getenv("HOME")
+# BASE_PATH = pathlib.Path(HOME) / "projects" / "KiMAT"
 
 
 # ## Data Preparation
 
-# In[9]:
+# In[3]:
 
 
 # Read in gene expression
@@ -46,7 +46,7 @@ gene_expression = metworkpy.utils.rpkm_to_tpm(gene_expression)
 normalized_expression = pd.read_csv(BASE_PATH / "data" / "quant_normed" / "xprs_norm.tsv", sep="\t", index_col=0).transpose()
 
 
-# In[30]:
+# In[4]:
 
 
 # Separate the expression data into biological replicates
@@ -101,7 +101,7 @@ for condition in expr_dict:
 
 # ## Read in Base Model
 
-# In[65]:
+# In[5]:
 
 
 iek1011 = metworkpy.read_model(BASE_PATH / "data" / "Models" / "iEK1011_m7H10_media.json")
@@ -112,7 +112,7 @@ for method in ["simple_bounds", "subset_model", "fva_model", "milp_model"]:
 
 # ## Convert Gene Expression into Trinarized Reactions
 
-# In[33]:
+# In[6]:
 
 
 rxn_weight_dict = {
@@ -215,7 +215,7 @@ for condition in rxn_weight_dict:
 
 # ## IMAT
 
-# In[37]:
+# In[7]:
 
 
 biomass_growth_df = pd.DataFrame(np.NaN, index = rxn_weight_dict.keys(), 
@@ -231,10 +231,12 @@ wt_objective = iek1011.slim_optimize()
 diff_biomass_growth_df.loc['WT'] = wt_objective
 
 
-# In[29]:
+# In[8]:
 
 
 def imat_per_method(method, weights_dict, results_path, biomass_growth_df, skip_list=None):
+    if skip_list is None:
+        skip_list = []
     print(f"METHOD: {method}")
     print("**********************")
     for condition in weights_dict:
@@ -262,7 +264,7 @@ def imat_per_method(method, weights_dict, results_path, biomass_growth_df, skip_
 
 # ### Simple Bounds
 
-# In[ ]:
+# In[9]:
 
 
 imat_per_method(method="simple_bounds", weights_dict=rxn_weight_dict, 
@@ -344,7 +346,7 @@ diff_biomass_growth_df[~(diff_biomass_growth_df.index=="WT")].div(diff_biomass_g
 
 # ## Essentiality Analysis
 
-# In[3]:
+# In[ ]:
 
 
 def essentiality_analysis(model_dir: pathlib.Path, 
@@ -388,7 +390,7 @@ def essentiality_analysis(model_dir: pathlib.Path,
     ess_res_df.to_csv(out_dir / "ko_essentiality.csv")        
 
 
-# In[4]:
+# In[ ]:
 
 
 # Normal Expression Essentiality Analysis
