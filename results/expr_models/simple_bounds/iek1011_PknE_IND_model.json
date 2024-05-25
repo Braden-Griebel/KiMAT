@@ -6930,7 +6930,7 @@
 "nh4_c":1.0,
 "pyr_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2780",
 "subsystem":"Alanine, Aspartate, and Glutamate Metabolism"
@@ -8075,7 +8075,7 @@
 "h_c":1.0,
 "oaa_c":-1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0896 or Rv0889c",
 "subsystem":"Citric Acid Cycle"
@@ -8263,7 +8263,7 @@
 "o2_c":-0.5
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv1620c and Rv1621c and Rv1622c and Rv1623c",
 "subsystem":"Redox Metabolism"
 },
@@ -13511,7 +13511,7 @@
 "pyr_c":1.0
 },
 "lower_bound":-1000.0,
-"upper_bound":-1.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0694",
 "subsystem":"Glycolysis/Gluconeogenesis"
 },
@@ -13609,7 +13609,7 @@
 "lac__L_c":-1.0,
 "pyr_c":1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv1872c or Rv0694",
 "subsystem":"Pyruvate Metabolism"
@@ -13637,7 +13637,7 @@
 "mqn8_c":-1.0,
 "pyr_c":1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv1872c",
 "subsystem":"Pyruvate Metabolism"
@@ -14213,7 +14213,7 @@
 "mmcoa__S_c":-1.0,
 "ppcoa_c":1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv3799c",
 "subsystem":"Fatty Acid Metabolism"
@@ -14951,8 +14951,8 @@
 "na1_c":-1,
 "na1_e":1
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2287",
 "subsystem":"Transport"
 },
@@ -16098,7 +16098,7 @@
 "coa_c":-1.0,
 "dhlam_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2215 or Rv2495c",
 "subsystem":"Glycolysis/Gluconeogenesis"
@@ -16113,7 +16113,7 @@
 "nad_c":-1.0,
 "nadh_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0462 or Rv0843",
 "subsystem":"Citric Acid Cycle"
@@ -16185,7 +16185,7 @@
 "oaa_c":-1.0,
 "pep_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0211",
 "subsystem":"Citric Acid Cycle"
@@ -23503,8 +23503,8 @@
 "pyr_c":1.0,
 "val__L_c":1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3565",
 "subsystem":"Valine, Leucine, and Isoleucine Metabolism"
 },

@@ -6163,7 +6163,7 @@
 "ppi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0254c",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -6525,7 +6525,7 @@
 "ppi_c":1.0,
 "pppi_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0733",
 "subsystem":"Purine and Pyrimidine Biosynthesis"
@@ -6613,7 +6613,7 @@
 "h_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0254c",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -6714,7 +6714,7 @@
 "galfragund_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3792",
 "subsystem":"Arabinogalactan biosynthesis"
 },
@@ -6884,7 +6884,7 @@
 "sdhlam_c":-1.0,
 "succoa_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2215",
 "subsystem":"Citric Acid Cycle"
@@ -6930,7 +6930,7 @@
 "nh4_c":1.0,
 "pyr_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2780",
 "subsystem":"Alanine, Aspartate, and Glutamate Metabolism"
@@ -7269,8 +7269,8 @@
 "arg__L_c":1.0,
 "arg__L_e":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2320c",
 "subsystem":"Transport"
 },
@@ -8027,7 +8027,7 @@
 "nadph_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2070c",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -8156,7 +8156,7 @@
 "h2o_c":1.0,
 "o2_c":-0.5
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2193 and Rv1451 and Rv3043c and Rv2200c",
 "subsystem":"Oxidative Phosphorylation"
@@ -8246,7 +8246,7 @@
 "q8_c":1.0,
 "q8h2_c":-1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(Rv1622c and Rv1620c) or (Rv1622c and Rv1621c)",
 "subsystem":"Redox Metabolism"
@@ -8540,7 +8540,7 @@
 "ru5p__D_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv1940",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -8611,8 +8611,8 @@
 "decda__tb_c":1.0,
 "decdr__tb_c":-1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3790 and Rv3791",
 "subsystem":"Arabinogalactan biosynthesis"
 },
@@ -8852,7 +8852,7 @@
 "ppi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0534c",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -10525,7 +10525,7 @@
 "ttdca_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10547,7 +10547,7 @@
 "ppi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10569,7 +10569,7 @@
 "ppi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10591,7 +10591,7 @@
 "ppi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10613,7 +10613,7 @@
 "ppi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0468 and Rv0859 and Rv0860 and Rv1144 and Rv1323",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10632,7 +10632,7 @@
 "octa_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10651,7 +10651,7 @@
 "nadph_c":-2.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10689,7 +10689,7 @@
 "ttdca_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10709,7 +10709,7 @@
 "ttdca_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10728,7 +10728,7 @@
 "ocdca_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10748,7 +10748,7 @@
 "ocdcea_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10767,7 +10767,7 @@
 "ocdca_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10786,7 +10786,7 @@
 "ttc_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10805,7 +10805,7 @@
 "ttc_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -10824,7 +10824,7 @@
 "octa_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1350 and Rv2524c and Rv1484 and Rv2947c",
 "subsystem":"Fatty Acid Metabolism"
 },
@@ -11427,7 +11427,7 @@
 "thf_c":1
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2671",
 "subsystem":"Folate Metabolism"
 },
@@ -11514,7 +11514,7 @@
 "rrppdima_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2957",
 "subsystem":"Phenolic glycolipid biosynthesis"
 },
@@ -11544,7 +11544,7 @@
 "thf_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2964",
 "subsystem":"Folate Metabolism"
 },
@@ -11912,7 +11912,7 @@
 "h_e":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3331",
 "subsystem":"Transport"
 },
@@ -12577,8 +12577,8 @@
 "nadp_c":1.0,
 "nadph_c":-1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2855",
 "subsystem":"Alanine, Aspartate, and Glutamate Metabolism"
 },
@@ -13595,8 +13595,8 @@
 "lys__L_c":1.0,
 "lys__L_e":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2320c",
 "subsystem":"Transport"
 },
@@ -14776,8 +14776,8 @@
 "nadp_c":-1.0,
 "nadph_c":1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2855",
 "subsystem":"Redox Metabolism"
 },
@@ -14791,7 +14791,7 @@
 "mssg_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2855",
 "subsystem":"Redox Metabolism"
 },
@@ -14806,7 +14806,7 @@
 "nadh_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158",
 "subsystem":"Oxidative Phosphorylation"
 },
@@ -14820,8 +14820,8 @@
 "q_c":-1.0,
 "qh2_c":1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158",
 "subsystem":"Oxidative Phosphorylation"
 },
@@ -14851,7 +14851,7 @@
 "nadh_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158",
 "subsystem":"Oxidative Phosphorylation"
 },
@@ -15510,7 +15510,7 @@
 "no2_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv0252 and Rv0253",
 "subsystem":"Redox Metabolism"
 },
@@ -15526,7 +15526,7 @@
 "no2_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv0252 and Rv0253",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -15542,7 +15542,7 @@
 "no2_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv0252 and Rv0253",
 "subsystem":"Redox Metabolism"
 },
@@ -15696,8 +15696,8 @@
 "orn_c":1.0,
 "orn_e":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2320c",
 "subsystem":"Transport"
 },
@@ -15741,7 +15741,7 @@
 "oxalcoa_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0118c",
 "subsystem":"Glyoxylate Metabolism"
 },
@@ -15997,7 +15997,7 @@
 "pre6b_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2070c",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -16013,7 +16013,7 @@
 "pre8_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2072c",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -16113,7 +16113,7 @@
 "nad_c":-1.0,
 "nadh_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0462 or Rv0843",
 "subsystem":"Citric Acid Cycle"
@@ -16141,7 +16141,7 @@
 "pdima_e":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2942 and Rv2936 and Rv2937 and Rv2938 and Rv2945c",
 "subsystem":"Transport"
 },
@@ -16186,7 +16186,7 @@
 "pep_c":1.0
 },
 "lower_bound":-1000.0,
-"upper_bound":-1.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0211",
 "subsystem":"Citric Acid Cycle"
 },
@@ -16534,7 +16534,7 @@
 "phthiocerol_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2951c and Rv2952",
 "subsystem":"Membrane Metabolism"
 },
@@ -16550,7 +16550,7 @@
 "pphthiocerol_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2951c and Rv2952",
 "subsystem":"Membrane Metabolism"
 },
@@ -16792,7 +16792,7 @@
 "ppdima_e":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2942 and Rv2936 and Rv2937 and Rv2938 and Rv2945c",
 "subsystem":"Transport"
 },
@@ -16956,8 +16956,8 @@
 "pi_c":1.0,
 "pram_c":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv0772",
 "subsystem":"Purine and Pyrimidine Biosynthesis"
 },
@@ -17878,7 +17878,7 @@
 "ser__L_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2335",
 "subsystem":"Cysteine and methionine metabolism"
 },
@@ -18096,7 +18096,7 @@
 "spmd_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2601",
 "subsystem":"Urea Cycle"
 },
@@ -18232,7 +18232,7 @@
 "so4_e":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2397c and Rv2398c and Rv2399c and Rv2400c and Rv1739c",
 "subsystem":"Transport"
 },
@@ -18900,7 +18900,7 @@
 "tsul_e":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2397c and Rv2398c and Rv2399c and Rv2400c and Rv1739c",
 "subsystem":"Transport"
 },
@@ -19463,7 +19463,7 @@
 "urea_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv1850 and Rv1849 and Rv1848 and Rv1853 and Rv1851 and Rv1852",
 "subsystem":"Purine and Pyrimidine Biosynthesis"
 },
@@ -19549,7 +19549,7 @@
 "xylu__D_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv0729",
 "subsystem":"Alternate Carbon Metabolism"
 },
@@ -19664,7 +19664,7 @@
 "ppcoa_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv1131",
 "subsystem":"Propanoate Metabolism"
 },
@@ -19875,8 +19875,8 @@
 "ni2_c":1.0,
 "ni2_e":-1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv2856",
 "subsystem":"Transport"
 },
@@ -19992,7 +19992,7 @@
 "lppg_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3261 and Rv3262",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -20025,7 +20025,7 @@
 "pi_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3261 and Rv3262",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
 },
@@ -20586,7 +20586,7 @@
 "decda__tb_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1635c and Rv2181 and Rv3793",
 "subsystem":"Arabinogalactan bioynthesis"
 },
@@ -20906,7 +20906,7 @@
 "hipohcoa_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv3550",
 "subsystem":"Cholesterol degradation"
 },
@@ -21120,7 +21120,7 @@
 "ppi_c":1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv3551 and Rv3552",
 "subsystem":"Cholesterol degradation"
 },
@@ -21149,8 +21149,8 @@
 "h2o_c":-1.0,
 "hcholc3coa_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv3541c and Rv3541c",
 "subsystem":"Cholesterol degradation"
 },
@@ -21211,7 +21211,7 @@
 "fadh2_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv3573c",
 "subsystem":"Cholesterol degradation"
 },
@@ -21238,7 +21238,7 @@
 "hipecoa_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv3560c",
 "subsystem":"Cholesterol degradation"
 },
@@ -21284,7 +21284,7 @@
 "ppcoa_c":1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv3540c",
 "subsystem":"Cholesterol degradation"
 },
@@ -21315,7 +21315,7 @@
 "ppi_c":1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"(Rv3551 and Rv3552) or Rv3561",
 "subsystem":"Cholesterol degradation"
 },
@@ -21592,7 +21592,7 @@
 "rbzn_c":-1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2959c",
 "subsystem":"p-HBAD biosynthesis"
 },
@@ -22045,8 +22045,8 @@
 "h_c":1,
 "pi_c":1
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1819c",
 "subsystem":"Transport"
 },
@@ -22254,7 +22254,7 @@
 "nadp_c":-1.0,
 "nadph_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv3106 or Rv0886",
 "subsystem":"Cofactor and Prosthetic Group Biosynthesis"
@@ -22361,7 +22361,7 @@
 "sl659_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3824c",
 "subsystem":"Sulfur metabolism"
 },
@@ -22609,7 +22609,7 @@
 "n6hlysmal_c":1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv1347c",
 "subsystem":"Mycobactin biosynthesis"
 },
@@ -22624,8 +22624,8 @@
 "nadph_c":-1,
 "o2_c":-1
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2378c",
 "subsystem":"Mycobactin biosynthesis"
 },
@@ -22876,7 +22876,7 @@
 "glycogen_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv1326c and Rv3031",
 "subsystem":"Starch and sucrose metabolism"
 },
@@ -23104,7 +23104,7 @@
 "tbsinyldp_c":1
 },
 "lower_bound":0.0,
-"upper_bound":0.1,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3377c",
 "subsystem":"Others"
 },
@@ -23203,7 +23203,7 @@
 "nad_c":1.0,
 "nadh_c":-1.0
 },
-"lower_bound":1.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2982c or Rv0564c",
 "subsystem":"Glycerophospholipid metabolism"
@@ -23273,8 +23273,8 @@
 "decd__tb_c":70.0,
 "decda__tb_c":-70.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3794 and Rv3795 and Rv3793 and Rv2673 and Rv3805c",
 "subsystem":"Arabinogalactan biosynthesis"
 },
@@ -23503,8 +23503,8 @@
 "pyr_c":1.0,
 "val__L_c":1.0
 },
-"lower_bound":-0.1,
-"upper_bound":0.1,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"Rv3565",
 "subsystem":"Valine, Leucine, and Isoleucine Metabolism"
 },
@@ -23726,7 +23726,7 @@
 "amet_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv0294",
 "subsystem":"Unassigned",
 "notes":{

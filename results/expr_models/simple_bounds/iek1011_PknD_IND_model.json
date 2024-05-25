@@ -6656,7 +6656,7 @@
 "h_c":1.0,
 "paps_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv1286",
 "subsystem":"Sulfur metabolism"
@@ -11957,7 +11957,7 @@
 "h_c":-1.0,
 "lpro_c":-1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv1832",
 "subsystem":"Glycolysis/Gluconeogenesis"
@@ -12044,7 +12044,7 @@
 "ser__L_c":-1.0,
 "thf_c":-1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv1093 or Rv0070c",
 "subsystem":"Glycolysis/Gluconeogenesis"
@@ -12518,7 +12518,7 @@
 "nadph_c":1.0,
 "ru5p__D_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv1122 or Rv1844c",
 "subsystem":"Pentose Phosphate Pathway"
@@ -13150,7 +13150,7 @@
 "icit_c":-1.0,
 "succ_c":1.0
 },
-"lower_bound":1.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0467 or (Rv1915 and Rv1916)",
 "subsystem":"Glyoxylate Metabolism"
@@ -14820,8 +14820,8 @@
 "q_c":-1.0,
 "qh2_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":-0.1,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv0082 and Rv3145 and Rv3146 and Rv3147 and Rv3148 and Rv3149 and Rv3150 and Rv3151 and Rv3152 and Rv3153 and Rv3154 and Rv3155 and Rv3156 and Rv3157 and Rv3158",
 "subsystem":"Oxidative Phosphorylation"
 },
@@ -16185,7 +16185,7 @@
 "oaa_c":-1.0,
 "pep_c":1.0
 },
-"lower_bound":1.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv0211",
 "subsystem":"Citric Acid Cycle"
@@ -16242,7 +16242,7 @@
 "nadh_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.1,
 "gene_reaction_rule":"Rv2996c and Rv0728c",
 "subsystem":"Glycolysis/Gluconeogenesis"
 },
@@ -23174,7 +23174,7 @@
 "paps_c":-1.0,
 "pi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":1.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Rv2131c",
 "subsystem":"Sulfur metabolism"
